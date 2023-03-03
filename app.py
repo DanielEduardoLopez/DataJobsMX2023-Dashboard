@@ -346,7 +346,7 @@ app.layout = html.Div(children=[
                                 html.P("By Daniel Eduardo López",
                                         style={'textAlign': 'center', 'color': 'navy',
                                                'font-size': 16, 'font-family': 'Tahoma'}),
-                                dcc.Link(html.A('GitHub'), href="https://github.com/DanielEduardoLopez",
+                                dcc.Link(html.A('GitHub'), href="https://github.com/DanielEduardoLopez/DataJobsMX2023",
                                         style={'textAlign': 'center', 'color': 'navy',
                                                'font-size': 12, 'font-family': 'Tahoma',
                                                'margin': 'auto',
