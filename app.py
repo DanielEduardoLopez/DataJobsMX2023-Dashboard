@@ -85,7 +85,7 @@ def plot_card(df):
 
     card.update_layout(paper_bgcolor = "#B3D5FA",
                         grid = {'rows': 2, 'columns': 1, 'pattern': "independent"},
-                       width = 210,
+                       width = 200,
                         height = 150,
                        margin = {'t': 25, 'r': 0, 'l': 0, 'b': 0}
                       )
@@ -548,7 +548,7 @@ app.layout = html.Div(children=[
 
                                     ], id='card-container',
                                         style={'margin-top': '-320px',
-                                               'margin-left': '22%',
+                                               'margin-left': '21.5%',
                                                #'width': '300px',
                                                #'height': '300px',
                                                }
@@ -562,7 +562,7 @@ app.layout = html.Div(children=[
                                           
                                           ], id='Boxplot',
                                             style={'margin-top': '-230px',
-                                                    'margin-left': '35.5%',
+                                                    'margin-left': '36%',
                                                     'width': '33%',
                                                     'height': '400px',                                                                                                            
                                                     }                                                
