@@ -35,7 +35,7 @@ min_salary = df['Salary'].min()
 def plot_pie_chart(df):
 
   job_df = pd.DataFrame(df['Job'].value_counts().reset_index().rename(columns = {'index': 'Job', 'Job': 'Count'}))
-  pie_colors = ['#06477D','#84BDEC','#B4D4EF', '#C8E4FC','white']
+  pie_colors = ['#06477D','#84BDEC','#B4D4EF', '#C8E4FC','lightgray']
   demand_job_plot = px.pie(job_df, values='Count', names='Job', color = 'Job', hole = 0.7,  
                            color_discrete_sequence=px.colors.sequential.Blues_r,
                            height=450,
