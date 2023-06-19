@@ -650,7 +650,7 @@ app.layout = html.Div(children=[
                         ], id='entire-dashboard',
                            style={'width': '100%',
                                   'overflow': 'hidden',
-                                  'background-color': 'aliceblue',
+                                  'background-color': 'white', #'aliceblue',
                                  }
                         )
 
